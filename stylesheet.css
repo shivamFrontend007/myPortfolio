@@ -190,7 +190,7 @@ header{
 .sub-title1 {
     text-align: center;
     font-size: 60px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 .sub-title span{
     color: #0ef;
@@ -199,7 +199,7 @@ header{
     color: #0ef;
 }
 .container0{
-    padding: 80px 80px 138px 80px;
+    padding: 60px 80px 138px 80px;
 }
 .services-list{
     display: grid;
@@ -453,7 +453,7 @@ header{
 }
 
 .main-text{
-    padding-top: 130px;
+    padding-top: 0px;
     margin-top: 200px;
 }
 .main-text h2{
