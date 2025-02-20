@@ -210,7 +210,7 @@ header{
 }
 .services-list div{
     background-color: transparent;
-    padding: 40px;
+    padding: 25px;
     font-size: 13px;
     font-weight: 13px;
     border-right: 10px;
@@ -571,6 +571,10 @@ header{
     font-weight: 600;
     transition: all .40s ease;
 }
+.contact-list a{
+    text-decoration: none;
+    color: inherit;
+}
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
     color: #0ef;
@@ -658,3 +662,6 @@ header{
     border-radius: 0.5rem;
 }
 
+.modal-content{
+    background-color: grey;
+}
