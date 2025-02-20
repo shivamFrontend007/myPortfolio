@@ -77,6 +77,10 @@
     .row0{
         padding-left: 10px;
     }
+    .contact-form form{
+        width: 380px;
+        padding-right: 30px;
+    }
 }
 
 @keyframes slideRight{
