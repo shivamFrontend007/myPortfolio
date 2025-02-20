@@ -385,6 +385,7 @@ header{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
+
 .radial-bars{
     width: 100%;
     display: flex;
@@ -655,3 +656,4 @@ header{
     padding: 10px;
     border-radius: 0.5rem;
 }
+
