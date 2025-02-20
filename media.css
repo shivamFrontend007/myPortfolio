@@ -4,7 +4,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 10px;
+        
         background-color: #051129;  
         font-weight: 300;   
     }
@@ -40,13 +40,13 @@
     }
     .sub-title1 {
         text-align: center;
-        margin-left: 120px;
+       
         padding-top: 60px;
         margin-top: 80px;
     }
-    .bothSkills{
-        margin-left: 95px;
-        padding-left: 18px;
+
+    .techSkills{
+        margin-left: 20px;
     }
     .proSkills{
         padding-top: 60px;
@@ -66,7 +66,7 @@
         margin-left: 0px;
     }
     .container0{
-        padding: 60px 0px 138px 100px;
+        padding:20px;
     }
 }
 
@@ -151,4 +151,138 @@
     100%{
         stroke-dashoffset: 60;
     }
+}
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header {
+        padding: 10px 5%;
+    }
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .home {
+        padding-top: 50px;
+        padding-left: 30px;
+        height: 80vh;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    /* About Section */
+    .about {
+        grid-template-columns: 1fr;
+        padding-top: 5rem;
+    }
+
+    .about-text h2 {
+        font-size: 45px;
+        padding: 10px;
+    }
+    .about-text h4{
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        padding: 10px;
+    }
+    a.btn-box{
+        margin-left: 10px;
+    }
+
+    /* Skills Section */
+    .sub-title {
+        font-size: 35px;
+        margin-left: 0;
+    }
+    .heading1{
+        margin-left: 19%;
+    }
+
+    /* Services Section */
+    .services-list {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .services-list div {
+        font-size: 14px;
+    }
+
+    /* Contact Section */
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+
+    .contact-text h4 {
+        font-size: 18px;
+    }
+
+    .contact-form form input, 
+    .contact-form form textarea {
+        padding: 12px;
+    }
+
+    .contact-form form .send {
+        font-size: 16px;
+        padding: 12px 50px;
+    }
+
+    .top {
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .contact-list li a:hover {
+        transform: scale(1.05);
+    }
+}
+
+/* Keyframe Adjustments */
+@keyframes slideRight {
+    0% { transform: translateX(-100px); opacity: 0; }
+    100% { transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes slideLeft {
+    0% { transform: translateX(100px); opacity: 0; }
+    100% { transform: translateX(0px); opacity: 1; }
+}
+
+@keyframes slideTop {
+    0% { transform: translateY(100px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
+
+@keyframes slideBottom {
+    0% { transform: translateY(-100px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
 }

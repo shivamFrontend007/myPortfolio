@@ -148,7 +148,7 @@ header{
     gap: 1.5rem;
 }
 .about-img img{
-    padding-bottom: 20%;
+   
     max-width: 630px;
     height: auto;
     width: 100%;
@@ -190,7 +190,8 @@ header{
 .sub-title1 {
     text-align: center;
     font-size: 60px;
-    padding-top: 40px;
+    padding-top: 60px;
+    margin-top: 20px;
 }
 .sub-title span{
     color: #0ef;
