@@ -1,5 +1,5 @@
 new TypeIt(".text", {
-    strings: "Frontend Developer",
+    strings: ("Frontend Developer"),
     speed: 100,
     backSpeed: 100,
     backDelay: 1000,
