@@ -338,7 +338,7 @@ header{
     width: 85%;
 }
 .dsa span{
-    width: 75%;
+    width: 70%;
 }
 
 .progress-line span::after{
@@ -370,7 +370,7 @@ header{
     content: "85%";
 }
 .dsa span::after{
-    content: "75%";
+    content: "70%";
 }
 .progress-line span::before{
     content: "";
